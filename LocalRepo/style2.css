@@ -1,0 +1,591 @@
+*{
+    border:border-box;
+    margin:0px;
+    font-family:arial;
+}
+
+
+body {
+    height:2000px;
+    width:1282px;
+    background-color: #dbebf4;
+}
+
+#two {
+    height:60px;
+    width:1282px;
+    background-color: #0f1111;
+    position:absolute;
+    left:0px; 
+    top:0px; 
+    display: flex;
+}
+
+#one {
+    height:30px;
+    width:100px;
+    background-image: url("amazon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left:15px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#one:hover {
+    border: 1px solid white;
+}
+
+h5 {
+    position: relative;
+    right: 15px;
+}
+
+#four {
+    height: 40px;
+    width: 60px;
+    color:#CCCCCC;
+    margin-left: 30px;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+
+#four:hover {
+    border: 1px solid white;
+}
+
+#icon {
+    position: relative;
+    right:15px;
+    bottom:2px;
+}
+
+#add {
+    position: relative;
+    bottom: 15px;
+    font-size: 15px;
+}
+
+#bar {
+    width: 50px;
+    height: 37.5px;
+    position:relative;
+    bottom: 0.5px;
+    right: 1px;
+    background-color: #f3f3f3;
+    padding-left: 10px;
+    border-left: 1px solid #0f1111;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+#search {
+    width: 515.5px;
+    height: 34px;
+    position:relative;
+    right:6px;
+    border:none;
+    bottom: 1px;
+}
+
+#icon2 {
+    background-color: orange;
+    height: 36.5px;
+    width: 50px;
+    left:566px;
+    bottom: 38px;
+    position:relative;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border:none;
+    
+}
+
+#head {
+    width: 616px;
+    position: relative;
+    height:36px;
+    top:15px;
+}
+
+#head:hover {
+    border:2px solid orange;
+}
+
+#lang {
+    height:48px;
+    width:65px;
+    position:relative;
+    left:1.25px;
+    top:1.25px;
+    background-color: #0f1111;
+    color: #f3f3f3;
+    border:none;
+}
+
+#div {
+    position: relative;
+    left: 15px;
+    top: 6px;
+    width: 71.25px;
+    height: 50px;
+}
+
+#div:hover {
+    border: 1px solid white;
+}
+
+#en {
+    height: 40px;
+    width: 5px;
+    color:white;
+    position: relative;
+    bottom:30px;
+    left: 28px;
+}
+
+#bi {
+    height: 15px;
+    width: 20px;
+    background-image: url(Flag-United-States-of-America.webp);
+    background-size: cover;
+    position: relative;
+    bottom:68px;
+    left: 5px;
+}
+
+#account {
+    height:50px;
+    width:130px;
+    position:relative;
+    background-color:#0f1111;
+    color: white;
+    border:none;
+}
+
+#div1 {
+    background-color: black;
+    position: relative;
+    left:15px;
+    height:50px;
+    top:5px;
+    width:130px;
+}
+
+#div1:hover {
+    border: 1px solid white;
+}
+
+#user {
+    position:relative;
+    left:10px;
+    bottom:35px;
+    color:#CCCCCC;
+    height: 20px;
+    font-size: 12px;
+}
+
+#return {
+    height:50px;
+    width:90px;
+    position:relative;
+    left:15px;
+    top:5px;
+    background-color:#0f1111;
+}
+
+#return:hover {
+    border: 1px solid white;
+}
+
+#orders {
+    position: relative;
+    top:10px;
+    left: 10px;
+    color:#CCCCCC;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+
+#order {
+    position: relative;
+    top:10px;
+    left: 10px;
+    color:white;
+    font-size: 14px;
+}
+
+
+#cart {
+    height:50px;
+    width:90px;
+    position:relative;
+    left:15px;
+    top:5px;
+    background-color:#0f1111;
+}
+
+#cart:hover {
+    border: 1px solid white;
+}
+
+#carts {
+    position: relative;
+    top:20px;
+    left: 45px;
+    color:white;
+    font-size: 16px;
+}
+
+#icon3 {
+    color: white;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left:20px;
+    top:1px;
+}
+
+#zero {
+    position: relative;
+    bottom:37px;
+    left: 25px;
+    color:orange;
+    font-size: 16px;
+} 
+
+#blue {
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    height:40px;
+    width:1282px;
+    background-color: rgba(2, 2, 28, 0.838);
+}
+
+#icon4 {
+    color: white;
+    position: relative;
+    left:15px;
+    top:10px;
+    height:30px;
+    width:30px;
+    height: 20px;
+    width: 20px;
+}
+
+#new {
+    color: white;
+    position: relative;
+    left:35px;
+    bottom:12px;
+    height:30px;
+    width:30px;
+}
+
+#new1 {
+    height:35px;
+    width:60px;
+    position: relative;
+    left:10px;
+}
+
+#new1:hover {
+    border: 1px solid white;
+}
+
+#deal {
+    color: white;
+    position: relative;
+    left:70px;
+    bottom:35px;
+    height:35px;
+    width:120px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#deal:hover {
+    border: 1px solid white;
+}
+
+#buy {
+    color: white;
+    position: relative;
+    left:190px;
+    bottom:70px;
+    height:35px;
+    width:90px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buy:hover {
+    border: 1px solid white;
+}
+
+#service {
+    color: white;
+    position: relative;
+    left:280px;
+    bottom:105px;
+    height:35px;
+    width:150px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#service:hover {
+    border: 1px solid white;
+}
+
+#registry {
+    color: white;
+    position: relative;
+    left:430px;
+    bottom:140px;
+    height:35px;
+    width:80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#registry:hover {
+    border: 1px solid white;
+}
+
+#gift {
+    color: white;
+    position: relative;
+    left:510px;
+    bottom:175px;
+    height:35px;
+    width:90px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gift:hover {
+    border: 1px solid white;
+}
+
+#sell {
+    color: white;
+    position: relative;
+    left:600px;
+    bottom:210px;
+    height:35px;
+    width:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sell:hover {
+    border: 1px solid white;
+}
+
+#image {
+    height: 500px;
+    background-image: url("banner-amazon-1786x642-2021.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top:100px;
+}
+
+#state {
+    background-color: white;
+    width:980px;
+    position: relative;
+    top:77%;
+    left:10%;
+}
+
+#abcd {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top:65px;
+}
+
+#a {
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    }
+
+    #aa {
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+#img1 {
+    height: 200px;
+    width: 200px;
+    background-image: url("download.jpg");
+    background-size: cover;
+    position: relative;
+    top:10px;
+    left: 20px;
+}
+
+#a1 {
+    color:white;
+    background-color: red;
+    width: 110px;
+    position: relative;
+    left:10px;
+    top:255px;
+    border-radius: 10%;
+}
+
+#a11 {
+    position: relative;
+    left:10px;
+    top:260px;
+}
+
+#a111 {
+    position: relative;
+    left:10px;
+    top:70px;
+    color:skyblue;
+    text-decoration: underline;
+}
+
+#a:hover {
+
+    border:1px solid red;
+    #a111{
+        color:red;
+    }
+}
+
+#b {
+    height: 350px;
+    width: 250px;
+    background-color: #ffffff;
+}
+
+#bb {
+    position: relative;
+        top: 10px;
+        left: 10px;
+}
+
+#img2 {
+    height: 200px;
+    width: 200px;
+    background-image: url("images.jpg");
+    background-size: cover;
+    position: relative;
+    top:10px;
+    left: 20px;
+}
+
+#b1 {
+    position: relative;
+    left:10px;
+    top:107px;
+    color:skyblue;
+    text-decoration: underline;
+}
+
+#b:hover {
+
+    border:1px solid red;
+    #b1{
+        color:red;
+    }
+}
+
+#c {
+    height: 350px;
+    width: 250px;
+    background-color: #ffffff;
+}
+
+#cc {
+    position: relative;
+        top: 10px;
+        left: 10px;
+}
+
+#img3 {
+    height: 200px;
+    width: 200px;
+    background-image: url("download\ \(1\).jpg");
+    background-size: cover;
+    position: relative;
+    top:10px;
+    left: 20px;
+}
+
+#c1 {
+    position: relative;
+    left:10px;
+    top:107px;
+    color:skyblue;
+    text-decoration: underline;
+}
+
+#c:hover {
+
+    border:1px solid red;
+    #c1{
+        color:red;
+    }
+}
+
+#d {
+    height: 350px;
+    width: 250px;
+    background-color: #ffffff;
+}
+
+#dd {
+    position: relative;
+        top: 10px;
+        left: 10px;
+}
+
+#img4 {
+    height: 200px;
+    width: 200px;
+    background-image: url("images\ \(1\).jpg");
+    background-size: cover;
+    position: relative;
+    top:10px;
+    left: 20px;
+}
+
+#d1 {
+    position: relative;
+    left:10px;
+    top:107px;
+    color:skyblue;
+    text-decoration: underline;
+}
+
+#d:hover {
+
+    border:1px solid red;
+    #d1{
+        color:red;
+    }
+}
+
+
+
+
